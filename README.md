@@ -1,5 +1,5 @@
 # PDF Summarizer in Python
-> A super simple PDF summarization example using OpenAI's gpt-3.5-turbo (you can configure it). It provides a simple and efficient way to extract key information from PDF files and generate concise summaries.
+> A super simple PDF summarization example using OpenAI's GPT-3.5 Turbo (you can configure it). It provides a simple and efficient way to extract key information from PDF files and generate concise summaries.
 
 > [!NOTE]  
 > This repo is purely for educational purpose
@@ -18,14 +18,14 @@
 To install the PDF Summarizer library, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/AshikNesin/pdf-summarizer-openai-python.git`
-2. Create a new [virtualenv](https://learnpython.com/blog/how-to-use-virtualenv-python/): `virtualenv -p python3 env`
-3. Then use the env: `source env/bin/activate`
+2. Create a new [virtualenv](https://learnpython.com/blog/how-to-use-virtualenv-python/): `virtualenv -p python3 venv`
+3. Then use the env: `source venv/bin/activate`
 2. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
 To run the virtualenv, run the following command in the root of the repo (if not done already)
 ```shell
-source env/bin/activate
+source venv/bin/activate
 ```
 
 To run the summarizer
